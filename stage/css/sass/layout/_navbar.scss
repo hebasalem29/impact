@@ -1,0 +1,149 @@
+.header{
+.navbar
+{position: relative;
+    .iu{
+        @media(max-width:768px)
+        {
+            display: block;
+        }
+        position: absolute;
+        top:5px;
+        font-size: 20px;
+        right: 5px;
+        color: #fff;
+        width: 35px;
+       
+        height: 40px;
+        border: 1px solid #333;
+        
+        text-align: center;
+       // padding: 10px;
+        justify-content: center;
+        padding-top: 10px;
+        padding-right:10px ;
+        padding-left: 8px;
+         
+        //padding-right: 20px;
+        border-radius: 4px;
+        display: none;
+        background-color: transparent ;
+    }
+
+    color: #fff;
+    background-color: rgba(0,0,0,.6);
+    z-index: 999;
+    .logo{
+        font-size: 30px;
+       
+        i{
+            margin-right: 10px;
+            font-size: 20px;
+
+        }
+
+    }
+   
+    ul{
+        @media(max-width:992px)
+        {
+       
+         
+            
+            float: left;
+            white-space: nowrap;
+            li{
+                margin-right: 20px;
+                font-size: 20px;
+                
+            }
+        }
+        @media(max-width:768px)
+        {
+            display: none;
+            
+
+        
+    }
+        margin-top: 10px;
+        float: right;
+        li{
+            display: inline-block;
+            margin: 0 10px;
+            font-size: 23px;
+
+        }
+    }
+}
+background: url('../imgs/');
+.carousel{
+    margin-top: -140px;
+
+}
+.carousel-item{
+    width: 100%;
+    margin: 0;
+     
+    margin: 0;
+    position: relative;
+    .overlay{
+        position: absolute;
+        background-color: rgba(0,0,0,.4);
+        left: 0;
+        top:0;
+        width: 100%;
+        height: 100%;
+    }
+}
+.carousel-control-prev,.carousel-control-next{
+    display: none;
+}
+.carousel-indicators{
+    display: none;
+}
+.carousel-caption{
+    top:250px;
+}
+
+.par{
+.rmz,.rmz1{
+    background-color: rgba(0, 0, 0, 0.2);
+    //width: 50px;
+    //height: 50px;
+}
+.rmz1{
+width: 80px;
+height: 90px;
+text-align: center;
+font-size: 50px;
+ 
+padding:
+20px 10px;
+ 
+margin: 10px;
+margin: 0 auto;
+margin-bottom: 10px;
+}
+h1{
+    background-color:rgba(0,0,0,.2) ;
+    padding: 10px;
+    font-size: 40px;
+    margin: 10px;
+    white-space: nowrap;
+}
+p{
+    background-color:rgba(0,0,0,.2) ;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+a{
+    width: 50px;
+    height: 50px;
+    border: 4px solid #fff;
+    background-color: transparent;
+    padding: 10px 20px;
+    font-size: 25px;
+    margin: 20px;
+}
+}
+}

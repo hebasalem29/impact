@@ -9,12 +9,12 @@ autoprefixer=require('gulp-autoprefixer'),
 pug=require('gulp-pug'),
 
 sorcemaps=require('gulp-sourcemaps');
- gulp.task('html',function()
- {
-     return gulp.src('stage/html/*.pug')
-     .pipe(pug({pretty:true}))
-     .pipe(gulp.dest('dist'))
-     .pipe(livereload());
+gulp.task('html',function()
+{
+    return gulp.src('stage/html/*.pug')
+    .pipe(pug({pretty:true}))
+    .pipe(gulp.dest('dist'))
+    .pipe(livereload());
  })
  gulp.task('css',function()
  {
@@ -38,7 +38,7 @@ sorcemaps=require('gulp-sourcemaps');
 gulp.task('watch',function()
 {
     livereload.listen();
-    gulp.watch('stage/html/**/.*pug',gulp.series('html'));
+    gulp.watch('stage/html/**/*.pug',gulp.series('html'));
     gulp.watch(['stage/css/**/*.scss','stage/css/**/*.css'],gulp.series('css'));
     gulp.watch('stage/js/*.js',gulp.series('js'));
 })
