@@ -1,10 +1,16 @@
+body {
+  padding-bottom: 3000px; }
+
 .header {
   background: url("../imgs/"); }
   .header .navbar {
     position: relative;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.6);
-    z-index: 999; }
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    z-index: 99999; }
     .header .navbar .iu {
       position: absolute;
       top: 5px;
@@ -47,8 +53,6 @@
         display: inline-block;
         margin: 0 10px;
         font-size: 23px; }
-  .header .carousel {
-    margin-top: -140px; }
   .header .carousel-item {
     width: 100%;
     margin: 0;

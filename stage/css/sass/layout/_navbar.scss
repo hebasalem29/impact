@@ -6,7 +6,7 @@
         {
             display: block;
         }
-        position: absolute;
+        position:  absolute;
         top:5px;
         font-size: 20px;
         right: 5px;
@@ -28,6 +28,7 @@
         display: none;
         background-color: transparent ;
     }
+   
 
     color: #fff;
     background-color: rgba(0,0,0,.6);
@@ -73,10 +74,13 @@
 
         }
     }
+   position: fixed;
+    width: 100%;
+    z-index: 99999;
 }
 background: url('../imgs/');
 .carousel{
-    margin-top: -140px;
+   // margin-top: -140px;
 
 }
 .carousel-item{
