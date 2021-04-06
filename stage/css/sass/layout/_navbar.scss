@@ -1,4 +1,5 @@
 .header{
+    margin-bottom: 100px;
 .navbar
 {position: relative;
     .iu{
@@ -83,12 +84,46 @@ background: url('../imgs/');
    // margin-top: -140px;
 
 }
+.fr{
+
+    background: url('../imgs/bg1.jpg');
+    padding-bottom: 650px;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-attachment: fixed;
+}
+.sec{
+   
+    background: url('../imgs/bg2.jpg');
+ 
+    background-repeat: no-repeat;
+    background-size: cover  !important;
+    background-position: center;
+   
+    background-attachment: fixed;
+    
+    padding-bottom:650px;
+    
+}
+.thr{
+    background: url('../imgs/bg3.jpg');
+    padding-bottom: 650px;
+    background-repeat: no-repeat;
+    background-size: cover  !important;
+     
+    background-attachment: fixed;
+    
+}
+.carousel-inner{
+    overflow: visible;
+}
 .carousel-item{
-    width: 100%;
+    //width: 100%;
     margin: 0;
      
     margin: 0;
-    position: relative;
+    overflow:visible;
+    
     .overlay{
         position: absolute;
         background-color: rgba(0,0,0,.4);

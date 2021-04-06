@@ -1,0 +1,293 @@
+.stuff{
+    p{
+        color: #242424;
+    }
+    h5{
+        color: #242424;
+        margin-bottom: 30px;
+        padding-top: 20px;
+    }
+    h1{
+        position: relative;
+        margin-top: 100px;
+        //padding-bottom: 15px;
+        margin-bottom: 40px !important;
+      
+         &:after{
+           
+          
+             position: absolute;
+             content: '';
+             top:55px;
+             left: 0;
+             right: 0;
+             margin-right: auto;
+             width: 25%;
+             margin-left: auto;
+             border-bottom: 1px solid #e7e7e7;
+
+         }
+    }
+    .row1,.row2{
+        margin-top: 60px;
+    }
+    .fl{
+        display: flex;
+        h6
+{
+color: #222;
+
+}   
+i:last-of-type{
+    width: 80px;
+}     i{
+            background-color: #01b29e;
+            padding: 20px;
+            font-size: 30px;
+            width: 150px;
+            height: 80px;
+            text-align: center;
+            color: #fff;
+            margin-top: 10px;
+
+            &:hover{
+                background-color: #fff;
+                border: 4px solid #01b29e;
+                color: #01b29e;
+            }
+        }
+        .mo{
+            margin-left: 15px;
+        }
+    }
+    padding-top:40px ;
+    background-color: #f8f8f8;
+   
+}
+
+.skills{
+    .col-12{
+        width: 90%;
+    margin: 20px;
+    }
+    @media (min-width: 768px)
+    {
+        .col-md-6{
+            width: 45%;
+            margin-left: 20px;
+            margin: 5px;
+
+
+    }
+}
+    padding-bottom: 100px;
+    @media (min-width: 992px)
+    {
+.col-lg-3 {
+    flex: 0 0 auto;
+    width: 23%;
+    margin-left: 10px;
+}
+    }
+
+    padding-top: 40px;
+    background-color: #f8f8f8;
+    .vid{
+        
+      padding: 20px;
+        margin-top: 50px;
+        background-color: #fff;
+        .di{
+            position: relative;
+            width: 100px;
+            height: 50px;
+            background-color: #f56954;
+            color: #fff;
+            text-align: center;
+            font-weight: bold;
+            justify-content: center;
+          padding-top: 10px;
+          
+          &:after{
+            
+              position: absolute;
+              content: '';
+              width: 55%;
+              border: 2px solid #000;
+              left: 100px;
+              top:20px;
+
+
+          }
+          &:before{
+            position: absolute;
+            content: '';
+            width: 50%;
+            border: 2px solid gray;
+            left: 150px;
+            top:20px;
+
+        }
+        }
+        .di1{
+            position: relative;
+            width: 100px;
+            height: 50px;
+            background-color: #01b29e;
+            color: #fff;
+            text-align: center;
+            font-weight: bold;
+            justify-content: center;
+          padding-top: 10px;
+          
+          &:after{
+              position: absolute;
+              content: '';
+              width: 90%;
+              border: 2px solid #000;
+              left: 100px;
+              top:20px;
+
+
+          }
+          &:before{
+            position: absolute;
+            content: '';
+            width: 10%;
+            border: 2px solid gray;
+            left: 190px;
+            top:20px;
+
+        }
+        }
+        .di2{
+            position: relative;
+            width: 100px;
+            height: 50px;
+            background-color: #313742;
+            color: #fff;
+            text-align: center;
+            font-weight: bold;
+            justify-content: center;
+          padding-top: 10px;
+          
+          &:after{
+              position: absolute;
+              content: '';
+              width: 80%;
+              border: 2px solid #000;
+              left: 100px;
+              top:20px;
+
+
+          }
+          &:before{
+            position: absolute;
+            content: '';
+            width: 20%;
+            border: 2px solid gray;
+            left: 180px;
+            top:20px;
+
+        }
+        }
+        .di3{
+            position: relative;
+            width: 100px;
+            height: 50px;
+            background-color: #ec3c83;
+            color: #fff;
+            text-align: center;
+            font-weight: bold;
+            justify-content: center;
+          padding-top: 10px;
+          
+          &:after{
+              position: absolute;
+              content: '';
+              width: 10%;
+              border: 2px solid #000;
+              left: 100px;
+              top:20px;
+
+
+          }
+          &:before{
+            position: absolute;
+            content: '';
+            width: 90%;
+            border: 2px solid gray;
+            left: 100px;
+            top:20px;
+
+        }
+        }
+    }
+    margin-bottom: 100px;
+}
+.fam{
+    .carousel-indicators{
+        display: none;
+    }
+    .carousel-control-prev,.carousel-control-next{
+        display: none;
+    }
+    .fl{
+        @media(max-width:550px)
+        {
+display: block;
+ 
+        }
+        @media(min-width:551px)
+        {
+        padding-bottom: 100px;
+       padding-left: 50px;
+        }
+       margin: 0 auto !important;
+        display: flex;
+        z-index: 999;
+        img{
+            margin-right: 50px;
+        }
+        .xx{
+            p{
+                text-align: left;
+                color: #616161;
+            }
+            p:first-of-type{
+                color: #f5f5f5;
+            }
+        }
+    }
+    .overlay{
+        position: absolute;
+        background-color: rgba(0,0,0,.8);
+        left: 0;
+        top:0;
+        width: 100%;
+        height: 100%;
+    }
+    .fr{
+        background: url('../imgs/bg1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 350px;
+    }
+    .sec{
+        background: url('../imgs/bg2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 350px;
+    }
+    .thr{
+        background: url('../imgs/bg3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 350px;
+
+    }
+    .carousel-inner{
+        overflow: visible;
+    }
+
+}
