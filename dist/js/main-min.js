@@ -1,0 +1,1 @@
+$(".car1").attr("data-interval","100");

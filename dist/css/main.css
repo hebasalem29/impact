@@ -1,6 +1,19 @@
 body {
   padding-bottom: 3000px; }
 
+h1 {
+  padding-top: 100px; }
+  h1:after {
+    position: absolute;
+    content: '';
+    top: 150px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    width: 27%;
+    margin-left: auto;
+    border-bottom: 1px solid #e7e7e7; }
+
 .header {
   margin-bottom: 100px;
   background: url("../imgs/"); }
@@ -503,6 +516,177 @@ body {
 .hours i {
   font-size: 30px;
   padding-bottom: 15px; }
+
+.ex {
+  margin-bottom: 80px;
+  padding-top: 60px; }
+  .ex .row {
+    margin-bottom: 20px; }
+  .ex .ppp {
+    margin-bottom: 40px; }
+  .ex h1 {
+    position: relative;
+    margin-bottom: 30px; }
+    .ex h1:after {
+      position: absolute;
+      content: '';
+      top: 60px;
+      left: 0;
+      right: 0;
+      margin-right: auto;
+      width: 25%;
+      margin-left: auto;
+      border-bottom: 1px solid #e7e7e7; }
+  .ex ul {
+    margin-bottom: 60px; }
+    .ex ul li:first-of-type a {
+      background-color: #01b29e;
+      color: #fff; }
+      .ex ul li:first-of-type a:hover {
+        border: 2px solid #000; }
+    .ex ul li {
+      display: inline-block;
+      margin-right: 10px; }
+      .ex ul li a {
+        width: 40px;
+        height: 40px;
+        padding: 10px 20px;
+        color: #01b29e;
+        text-decoration: none;
+        border: 2px solid #01b29e; }
+        .ex ul li a:hover {
+          background-color: #01b29e;
+          color: #fff; }
+  .ex .por {
+    margin-bottom: 10px;
+    border-bottom: 5px solid #eee;
+    background-color: #fff; }
+    .ex .por p {
+      margin-left: 10px; }
+    .ex .por:hover {
+      border-bottom: 5px solid #01b29e; }
+    .ex .por img:hover {
+      opacity: .2; }
+
+.say {
+  margin-bottom: 100px;
+  background: url("../imgs/bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 100px;
+  background-position: center;
+  text-align: center;
+  justify-content: center; }
+  .say h1, .say .p7 {
+    position: relative;
+    color: #fff; }
+  .say h1 {
+    padding-top: 100px; }
+    .say h1:after {
+      position: absolute;
+      content: '';
+      top: 150px;
+      left: 0;
+      right: 0;
+      margin-right: auto;
+      width: 27%;
+      margin-left: auto;
+      border-bottom: 1px solid #e7e7e7; }
+  .say .p7 {
+    padding-top: 20px; }
+  .say .fl {
+    z-index: 9999;
+    display: flex; }
+    @media (max-width: 500px) {
+      .say .fl {
+        display: block; } }
+    .say .fl img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      margin-right: 80px;
+      justify-content: center;
+      -ms-interpolation-mode: nearest-neighbor;
+          image-rendering: -moz-crisp-edges;
+          image-rendering: pixelated; }
+    .say .fl .xxo p {
+      text-align: left;
+      color: #616161; }
+    .say .fl .xxo p:first-of-type {
+      color: #f5f5f5; }
+  .say .overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+  .say .carousel-indicators {
+    width: 18px;
+    height: 18px;
+    margin: 10px !important;
+    text-align: center;
+    margin: 0 auto !important; }
+    .say .carousel-indicators .active {
+      background-color: silver; }
+    .say .carousel-indicators button {
+      border-radius: 11px;
+      border: none;
+      margin: 2px;
+      background-color: transparent;
+      border: 1px solid gray; }
+  .say .carousel-control-prev, .say .carousel-control-next {
+    display: none; }
+  .say .jj {
+    background: transparent;
+    padding-bottom: 200px; }
+    @media (max-width: 500px) {
+      .say .jj {
+        padding-top: 250px; } }
+  .say .img-fluid1 {
+    max-width: 100%;
+    height: 100px; }
+
+.blog {
+  background-color: #f8f8f8; }
+  .blog .row {
+    margin-bottom: 60px; }
+  .blog .post {
+    padding-bottom: 90px;
+    background-color: #fff;
+    border-bottom: 5px solid #eee;
+    background-color: #fff; }
+    .blog .post button {
+      margin-top: 20px;
+      padding-right: 20px;
+      text-align: center;
+      justify-content: center;
+      float: right;
+      color: #00b29e;
+      border: 2px solid #00b29e;
+      background-color: #fff;
+      padding: 10px 10px;
+      margin-right: 10px;
+      padding-left: 20px;
+      white-space: nowrap; }
+      .blog .post button a {
+        margin-right: 20px;
+        font-weight: bold; }
+      .blog .post button:hover {
+        background-color: #00b29e;
+        color: #fff; }
+    .blog .post h5, .blog .post p {
+      padding-top: 20px;
+      padding-left: 10px; }
+    .blog .post:hover {
+      border-bottom: 5px solid #01b29e; }
+    .blog .post img:hover {
+      opacity: .2; }
+    .blog .post p i {
+      color: #737373;
+      font-size: 12px; }
 
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
