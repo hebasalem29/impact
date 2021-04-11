@@ -1,7 +1,8 @@
 .aboutus{
+    position: relative;
     background-color: #f8f8f8;
     padding-top: 100px;
-    margin-bottom: 60px;
+    padding-bottom: 60px;
     .yy{
    padding-bottom: 40px;
     }
@@ -13,7 +14,7 @@
           
             position: absolute;
             content: '';
-            top:60px;
+            top: 160px;
             left: 0;
             right: 0;
             margin-right: auto;
@@ -68,6 +69,8 @@
 
     }
     .team{
+        position: relative;
+        
        padding-bottom: 100px;
         .mem{
             h4{
@@ -165,6 +168,8 @@
     
 }
 .hours{
+    position: relative;
+    background-color: #fff;
     @media(max-width:550px)
     {
         .fr,.sec,.thr{
@@ -244,7 +249,10 @@
     }
 }
 .ex{
-    margin-bottom: 80px;
+    position: relative;
+    padding-bottom: 80px;
+    background-color: #fff;
+    
     .row{
         margin-bottom: 20px;
     }
@@ -260,7 +268,7 @@
           
             position: absolute;
             content: '';
-            top:60px;
+            top:160px;
             left: 0;
             right: 0;
             margin-right: auto;
@@ -325,7 +333,8 @@
 }
 }
 .say{
-    margin-bottom: 100px;
+    position: relative;
+    padding-bottom: 100px;
     h1,.p7{
         position: relative
         ;

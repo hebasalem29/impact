@@ -1,5 +1,7 @@
 .header{
-    margin-bottom: 100px;
+    position: relative;
+   
+  //  margin-bottom: 100px;
 .navbar
 {position: relative;
     .iu{
@@ -79,7 +81,7 @@
     width: 100%;
     z-index: 99999;
 }
-background: url('../imgs/');
+ 
 .carousel{
    // margin-top: -140px;
 
@@ -90,6 +92,8 @@ background: url('../imgs/');
     padding-bottom: 650px;
     background-repeat: no-repeat;
     background-size: cover !important;
+    background-position: center;
+   // padding-left:50px ;
     background-attachment: fixed;
 }
 .sec{
@@ -100,7 +104,7 @@ background: url('../imgs/');
     background-size: cover  !important;
     background-position: center;
    
-    background-attachment: fixed;
+  //  background-attachment: fixed;
     
     padding-bottom:650px;
     
@@ -110,19 +114,20 @@ background: url('../imgs/');
     padding-bottom: 650px;
     background-repeat: no-repeat;
     background-size: cover  !important;
+    background-position: center;
      
-    background-attachment: fixed;
+    //background-attachment: fixed;
     
 }
 .carousel-inner{
-    overflow: visible;
+    //overflow: visible;
 }
 .carousel-item{
     //width: 100%;
     margin: 0;
      
     margin: 0;
-    overflow:visible;
+   // overflow:visible;
     
     .overlay{
         position: absolute;
@@ -144,6 +149,7 @@ background: url('../imgs/');
 }
 
 .par{
+   // padding-bottom: 50px;
 .rmz,.rmz1{
     background-color: rgba(0, 0, 0, 0.2);
     //width: 50px;
@@ -167,7 +173,9 @@ h1{
     padding: 10px;
     font-size: 40px;
     margin: 10px;
-    white-space: nowrap;
+    padding: 10px 15px;
+
+   // white-space: nowrap;
 }
 p{
     background-color:rgba(0,0,0,.2) ;
@@ -185,4 +193,5 @@ a{
     margin: 20px;
 }
 }
+ 
 }

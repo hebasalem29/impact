@@ -1,23 +1,16 @@
 body{
-    padding-bottom: 3000px;
+    padding-bottom: 500px;
 }
 h1{
     padding-top: 100px;
     
     
-    &:after{
-       
-      
-        position: absolute;
-        content: '';
-        top:150px;
-        left: 0;
-        right: 0;
-        margin-right: auto;
-        width: 27%;
-        margin-left: auto;
-        border-bottom: 1px solid #e7e7e7;
+   
 
-    }
+    
+    
 
+}
+.zz{
+    z-index: 2;
 }

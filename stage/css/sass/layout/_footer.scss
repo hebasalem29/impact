@@ -1,0 +1,57 @@
+.footer{
+   .row{
+       margin-top: 50px;
+   }
+    padding: 30px;
+    padding-top: 50px;
+    background-color: #202020;
+    color: #bdc3c7;
+    position: fixed;
+    bottom: 0px;
+    z-index: 1;
+    .ma{
+        background: url('../imgs/world-map.png');
+        background-repeat: none;
+        background-size: contain;
+        
+       // padding: 50px;
+    }
+    a{
+        color: #bdc3c7;
+        text-decoration: none;
+    }
+    .fl{
+        
+        display: flex;
+        margin-bottom: 40px;
+        .kl{
+            padding-left: 10px;
+        }
+    }
+    h4{
+        margin-bottom: 20px;
+    }
+    i{
+        font-size: 12px;
+        margin-right: 5px;
+    }
+    width: 100%;
+    .copy{
+        left: -30px;
+        width: 120%;
+        margin: 0;
+        padding: 0;
+        background-color: #101010;
+        color: #fff;
+        padding: 20px;
+        border-top: 1px solid #333;
+        position: relative;
+        position: relative;
+        bottom: -30px;
+        text-align: center;
+    }
+  
+}
+.pos{
+    display: none;
+}

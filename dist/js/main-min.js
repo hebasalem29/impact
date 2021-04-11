@@ -1,1 +1,1 @@
-$(".car1").attr("data-interval","100");
+$(".car1").attr("data-interval","100"),$(window).on("scroll",function(){$(this).scrollTop()<900?($(".footer").addClass("pos"),console.log("hi")):$(".footer").removeClass("pos")});
