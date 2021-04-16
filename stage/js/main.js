@@ -12,3 +12,9 @@ $(window).on('scroll',function()
         $('.footer').removeClass('pos');
     }
 })
+$(window).on('load',function()
+{
+    $('.sp').fadeToggle();
+    $('.sp').fadeOut(1000);
+     
+})

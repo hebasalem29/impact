@@ -1,1 +1,1 @@
-$(".car1").attr("data-interval","100"),$(window).on("scroll",function(){$(this).scrollTop()<900?($(".footer").addClass("pos"),console.log("hi")):$(".footer").removeClass("pos")});
+$(".car1").attr("data-interval","100"),$(window).on("scroll",function(){$(this).scrollTop()<900?($(".footer").addClass("pos"),console.log("hi")):$(".footer").removeClass("pos")}),$(window).on("load",function(){$(".sp").fadeToggle(),$(".sp").fadeOut(1e3)});
